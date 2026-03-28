@@ -1,16 +1,16 @@
 ---
 name: pptx-design-styles
 description: >
-  Use this skill whenever creating PPTX slides, presentations, or decks with any of these 30 modern design styles:
+  Use this skill whenever creating PPTX slides, presentations, or decks with any of these 31 modern design styles:
   Glassmorphism, Neo-Brutalism, Bento Grid, Dark Academia, Gradient Mesh, Claymorphism,
   Swiss International, Aurora Neon Glow, Retro Y2K, Nordic Minimalism, Typographic Bold,
   Duotone Color Split, Monochrome Minimal, Cyberpunk Outline, Editorial Magazine,
   Pastel Soft UI, Dark Neon Miami, Hand-crafted Organic, Isometric 3D Flat, Vaporwave,
   Art Deco Luxe, Brutalist Newspaper, Stained Glass Mosaic, Liquid Blob Morphing,
   Memphis Pop Pattern, Dark Forest Nature, Architectural Blueprint, Maximalist Collage,
-  SciFi Holographic Data, Risograph Print.
+  SciFi Holographic Data, Risograph Print, Corporate Brand Standard (동아출판).
   Also activate for requests using words like "sleek", "modern", "trendy", "designed",
-  "stylish", or "visually striking" presentations.
+  "stylish", "visually striking", "사내 보고서", "주간보고", or "corporate report" presentations.
 ---
 
 # PPTX Modern Design Styles Skill
@@ -32,6 +32,7 @@ description: >
 |-------------------|--------------------|
 | Tech / AI / Startup | Glassmorphism, Aurora Neon, Cyberpunk Outline, SciFi Holographic |
 | Corporate / Consulting / Finance | Swiss International, Monochrome Minimal, Editorial Magazine, Architectural Blueprint |
+| Internal Report / Weekly Report (사내 보고서) | Corporate Brand Standard (동아출판) |
 | Education / Research / History | Dark Academia, Nordic Minimalism, Brutalist Newspaper |
 | Brand / Marketing | Gradient Mesh, Typographic Bold, Duotone Split, Risograph Print |
 | Product / App / UX | Bento Grid, Claymorphism, Pastel Soft UI, Liquid Blob |
@@ -79,6 +80,7 @@ description: >
 | 28 | Maximalist Collage | Energetic · Layered | Advertising, fashion |
 | 29 | SciFi Holographic Data | Hologram · HUD | AI, quantum, defense |
 | 30 | Risograph Print | CMYK · Indie | Publishing, art, music |
+| 31 | Corporate Brand Standard (동아출판) | Professional · Brand | Internal reports, weekly reports |
 
 ---
 

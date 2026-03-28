@@ -8,13 +8,13 @@
   </a>
 </p>
 
-> A Claude.ai skill for creating visually stunning presentations — 30 modern design styles included
+> A Claude.ai skill for creating visually stunning presentations — 31 modern design styles included
 
 ---
 
 ## Overview
 
-This skill enables Claude.ai to apply **30 curated modern design styles** when generating PPTX presentations. Each style includes precise **HEX color values, font pairings, layout rules, and signature elements** so every deck looks intentionally designed.
+This skill enables Claude.ai to apply **31 curated modern design styles** when generating PPTX presentations. Each style includes precise **HEX color values, font pairings, layout rules, and signature elements** so every deck looks intentionally designed.
 
 ---
 
@@ -27,7 +27,7 @@ Turn Claude into your personal presentation design expert using the Projects fea
 - **Setup**: 
   1. Create a new **Project** in Claude.ai.
   2. Upload `SKILL.md` and `references/styles.md` to the **Project Knowledge**.
-- **Usage**: Ask in the project chat, e.g., "Create an outline for a PPTX deck". Claude will reference the knowledge base to apply the most optimal design from the 30 themes.
+- **Usage**: Ask in the project chat, e.g., "Create an outline for a PPTX deck". Claude will reference the knowledge base to apply the most optimal design from the 31 themes.
 
 ### 2. Gemini Antigravity (Local Skill)
 Register this repository in the Antigravity agent's local skill system.
@@ -42,13 +42,13 @@ Register this repository in the Antigravity agent's local skill system.
 Integrate these design guidelines within the Codex agent environment.
 - **Setup**: 
   1. Add this project to the skills folder in your Codex workspace (e.g., `.codex/skills/` or a designated path).
-- **Usage**: When the agent detects presentation-related context during coding or drafting, it generates slide structures and styling codes following the 30 style specifications outlined in `SKILL.md`.
+- **Usage**: When the agent detects presentation-related context during coding or drafting, it generates slide structures and styling codes following the 31 style specifications outlined in `SKILL.md`.
 
 ---
 
 ## Visual Gallery
 
-Explore a few of the **30 distinct styles** available in this collection.
+Explore a few of the **31 distinct styles** available in this collection.
 
 ### ✨ Highlights
 <p align="center">
@@ -63,7 +63,7 @@ Explore a few of the **30 distinct styles** available in this collection.
 
 ---
 
-## 30 Design Styles
+## 31 Design Styles
 
 | # | Style | Mood | Best For |
 |---|-------|------|----------|
@@ -97,6 +97,7 @@ Explore a few of the **30 distinct styles** available in this collection.
 | 28 | Maximalist Collage | Energetic · Layered | Advertising, fashion |
 | 29 | SciFi Holographic Data | Hologram · HUD | AI, quantum |
 | 30 | Risograph Print | CMYK · Indie | Publishing, art |
+| 31 | Corporate Brand Standard (동아출판) | Professional · Brand | Internal reports |
 
 ---
 
@@ -126,6 +127,7 @@ pptx-design-styles/
 | Eco / Wellness | Hand-crafted Organic, Nordic Minimalism, Dark Forest |
 | Luxury / Premium | Art Deco Luxe, Monochrome Minimal, Dark Academia |
 | Science / Biotech | Liquid Blob, SciFi Holographic, Aurora Neon |
+| Internal Report / Corporate (사내 보고서) | Corporate Brand Standard (동아출판) |
 
 ---
 

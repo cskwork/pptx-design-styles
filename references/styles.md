@@ -1,4 +1,4 @@
-# 30 Modern PPTX Design Styles — Reference Guide
+# 31 Modern PPTX Design Styles — Reference Guide
 
 Each style is documented with:
 - **Background** — slide background color / gradient
@@ -1235,3 +1235,125 @@ Each style is documented with:
 - Digital-looking crisp shapes
 - Dark backgrounds
 - Screen-blend mode (must be multiply for authentic CMYK overlap)
+
+---
+
+## 31. Corporate Brand Standard (동아출판)
+
+**Mood**: Professional, authoritative, clean, brand-consistent
+**Best For**: Internal reports, weekly reports, executive briefings, corporate presentations, board decks
+
+### Background
+- Pure white only: `#FFFFFF`
+- No gradient, no dark, no texture — always solid white
+
+### Colors
+| Role | Color | HEX |
+|------|-------|-----|
+| Brand Primary (accent line only) | Dong-A Red | `#D7003F` |
+| Brand Dark (emphasis text) | Dark Red | `#C00000` |
+| Primary text | Black | `#000000` |
+| Body text | Dark grey | `#404040` |
+| Secondary text | Medium grey | `#373A3C` |
+| Muted text (captions) | Grey | `#808080` |
+| Emphasis Blue | Link blue | `#0070C0` |
+| Accent 1 — Table header | Blue | `#4472C4` |
+| Accent 2 — Timeline | Orange | `#ED7D31` |
+| Accent 3 — Chart | Grey | `#A5A5A5` |
+| Accent 4 — Caution | Yellow | `#FFC000` |
+| Accent 5 — Chart alt | Light blue | `#5B9BD5` |
+| Accent 6 — Success | Green | `#70AD47` |
+| Table even row | Zebra stripe | `#F2F2F2` |
+| Info box | Light blue fill | `#E8F0FE` |
+| Warning box | Light orange fill | `#FFF3E0` |
+
+> **Critical rule**: Brand Primary `#D7003F` is for accent lines and section numbers ONLY — never for body text.
+> Emphasis colors limited to **max 2 spots per slide**.
+
+### Fonts
+- **Cover slide** (Type A): NanumGothic ExtraBold (title 42pt), NanumGothic Regular (subtitle 22pt, date 14pt) — **NanumGothic family only, no Malgun Gothic mixing**
+- **Content slides** (Type C): Malgun Gothic Bold (title 20pt), Malgun Gothic Regular (body 12pt) — **Malgun Gothic family only**
+- **Section divider** (Type D): Malgun Gothic Bold (number 48pt `#D7003F`, name 20pt `#000000`)
+- **Table text**: Malgun Gothic Regular, 10pt
+- **Caption/source**: Malgun Gothic Regular, 10pt `#808080`
+- **Emphasis label**: KoPub Dotum Bold (optional accent font)
+- Max 2 font families per slide; max 3 families across entire deck
+
+### Layout — 6 Slide Types
+
+**Type A: Cover**
+- Brand symbol image: top-right (x=7.8" y=−0.6" w=2.8" h=3.2", clipped)
+- Company logo: bottom-left (x=0.4" y=4.9" w=2.0" h=0.55")
+- Title: NanumGothic EB 42pt, x=0.5 y=1.8 w=7.5 h=0.9
+- Subtitle: NanumGothic 22pt, x=0.5 y=2.75 w=7.5 h=0.55
+- Department/date: NanumGothic 14pt `#404040`, x=0.5 y=3.35 w=7.5 h=0.40
+- Reference layout: `assets/images/donga_symbol.gif`
+
+**Type B: Table of Contents**
+- Title: 20pt Bold
+- Items: 14pt Regular, 1.5× line spacing
+- Appendix separator line + items in 12pt `#808080`
+
+**Type C: Content (primary)**
+- Top brand red line: `#D7003F`, full slide width
+- Title: 20pt Bold `#000000`
+- Separator: `#D9D9D9` 0.5pt
+- Page number: bottom-right, 10pt `#808080`
+- Left/right margins: 0.77"
+- Title↔separator gap: 4pt; separator↔content gap: 12pt; bullet spacing: 6pt
+
+**Type D: Section Divider**
+- Section number: 48pt Bold `#D7003F` (centered)
+- Section name: 20pt Bold `#000000`
+
+**Type E: Appendix**
+- `[별첨]` label: 14pt `#808080`
+- Same layout as Type C otherwise
+
+**E.O.D: End slide**
+- Blank slide with centered "E.O.D" text only
+
+**Presentation order**: Cover(A) → TOC(B) → Section(D) → Content(C) → … → Appendix(E) → E.O.D
+
+### Table Styles — 2 Variants
+
+**Standard Table** (general data, schedules):
+- Header: `#4472C4` background, white 10pt Bold, left-aligned
+- Odd rows: `#FFFFFF`; Even rows: `#F2F2F2`
+- First column: 10pt Bold
+- Outer border: `#BFBFBF` 0.75pt; Inner lines: `#D9D9D9` 0.5pt
+- Cell padding: 3pt vertical, 6pt horizontal
+
+**Highlight Table** (KPI, comparison, status):
+- Header: `#D7003F` background, white 10pt Bold, center-aligned
+- Category column: `#F2F2F2` background, 10pt Bold
+- Outer border: `#D7003F` 1pt
+- Status cells:
+
+| Status | Cell BG | Text | Icon |
+|--------|---------|------|------|
+| Achieved / Done | `#E8F5E9` | `#2E7D32` | ● |
+| In Progress | `#E8F0FE` | `#1565C0` | ◐ |
+| Caution / Below | `#FFF3E0` | `#E65100` | ▲ |
+| Risk / Delayed | `#FFEBEE` | `#C00000` | ■ |
+
+**Common table rules**: numbers right-aligned with comma separators; dates as YY.MM.DD; max 7 rows × 6 columns per slide; caption `[표 N] Title` in 12pt Bold above table.
+
+### Signature Elements
+- Top-edge brand red line (`#D7003F`) on every content slide
+- Company symbol (red semicircle) on cover — top-right, partially clipped
+- Company wordmark logo on cover — bottom-left
+- Section number in 48pt brand red
+- Consistent zebra-striped tables
+- One key message per slide; max 5 bullet points
+
+### Avoid
+- Gradient backgrounds of any kind
+- Drop shadows on text or shapes
+- WordArt, 3D effects, reflections
+- More than 2 font families on one slide
+- Dark or colored slide backgrounds (always `#FFFFFF`)
+- Using brand red `#D7003F` as body text color
+- Mixing Malgun Gothic on cover slides (NanumGothic only)
+- Mixing NanumGothic on content slides (Malgun Gothic only)
+- More than 2 emphasis color spots per slide
